@@ -1,4 +1,4 @@
-<h1 align="center">pytu</h1>
+<h1 align="center">pytu-lx</h1>
 <h2 align="center">linux port</h1>
 
 <div align="center">
@@ -23,7 +23,7 @@
 
 ## 🚀 About <a name = "about"></a>
 
-Tunnel Manager is a Python application that provides a user interface for Windows to manage SSH tunnels conveniently. It allows users to start, stop, and monitor SSH tunnels easily.
+Tunnel Manager is a Python application that provides a user interface for linux to manage SSH tunnels conveniently. It allows users to start, stop, and monitor SSH tunnels easily.
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
@@ -32,7 +32,7 @@ To get a copy of the project up and running on your local machine, follow these 
 ## Prerequisites
 
 ```
-Windows 10+ (just tested it on 11 so far).
+Ubuntu (just tested it on 24.04 so far).
 Ensure you have Python 3.x installed on your system.
 Have the SSH connections already set up and configured.
 ```
@@ -43,13 +43,13 @@ Have the SSH connections already set up and configured.
 Clone the repository:
 
 ```
-git clone https://github.com/tf4482/pytu.git
+git clone https://github.com/tf4482/pytu-lx.git
 ```
 
 Navigate to the project directory:
 
 ```
-cd pytu
+cd pytu-lx
 ```
 
 Install the required dependencies:
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ## 🔧 Configuration
 
-Define your connections in pytu.json
+Define your connections in pytu-lx.json
 
 ```json
 {
@@ -97,7 +97,7 @@ Define your connections in pytu.json
 
 ## 🎈 Usage <a name="usage"></a>
 
-To use the application, simply run the Python script `pytu.py`. This will launch the Tunnel Manager user interface, where you can start, stop, and monitor SSH tunnels.
+To use the application, simply run the Python script `pytu-lx.py`. This will launch the Tunnel Manager user interface, where you can start, stop, and monitor SSH tunnels.
 
 ## 🏗️ Deployment <a name = "deployment"></a>
 

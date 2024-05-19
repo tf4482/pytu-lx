@@ -1,0 +1,62 @@
+{
+    "tunnels": [
+      {
+        "name": "Tunnel to Ubuntu on Homeserver",
+        "ssh": {
+          "port": 22,
+          "options": ["-f", "-N"],
+          "forwardings": [
+            {
+              "local_port": 81,
+              "remote_host": "localhost",
+              "remote_port": 80
+            },
+            {
+              "local_port": 8081,
+              "remote_host": "localhost",
+              "remote_port": 8080
+            },
+            {
+              "local_port": 8096,
+              "remote_host": "localhost",
+              "remote_port": 8096
+            }
+          ],
+          "user": "username",
+          "host": "192.168.0.1"
+        }
+      },
+      {
+        "name": "Tunnel to Windows 10 on Mums PC",
+        "ssh": {
+          "port": 22,
+          "options": ["-f", "-N"],
+          "forwardings": [
+            {
+              "local_port": 3307,
+              "remote_host": "localhost",
+              "remote_port": 3306
+            }
+          ],
+          "user": "daddy",
+          "host": "192.168.0.2"
+        }
+      },
+      {
+        "name": "Tunnel to Termux on Pixel",
+        "ssh": {
+          "port": 22,
+          "options": ["-f", "-N"],
+          "forwardings": [
+            {
+              "local_port": 3308,
+              "remote_host": "localhost",
+              "remote_port": 3306
+            }
+          ],
+          "user": "defaultuser",
+          "host": "192.168.0.96"
+        }
+      }
+    ]
+  }
